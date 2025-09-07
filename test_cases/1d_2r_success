@@ -1,0 +1,4 @@
+# Tests 2 drivers where 1 waits until last minute to get picked up while driver drives another person
+0 DriverRequest Brian 3,3 1
+1 RiderRequest Apple 2,3 0,0 10
+4 RiderRequest Chris 5,0 0,5 10

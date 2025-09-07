@@ -1,0 +1,5 @@
+# Tests basic scenario
+0 DriverRequest Alice 0,0 1
+1 RiderRequest Apple 1,1 1,5 5
+
+# {'rider_wait_time': 2.0, 'driver_total_distance': 6.0, 'driver_ride_distance': 4.0}

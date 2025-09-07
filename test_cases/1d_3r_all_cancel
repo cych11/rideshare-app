@@ -1,0 +1,5 @@
+# Test where 3 riders request and call cancel
+0 DriverRequest Brian 5,0 1
+0 RiderRequest Allison 0,5 0,0 5
+10 RiderRequest Breanna 5,0 0,5 10
+20 RiderRequest Chris 0,5 0,5 5

@@ -1,0 +1,4 @@
+# Tests 2 riders where 1 waits too long
+0 DriverRequest Brian 3,3 1
+1 RiderRequest Apple 2,3 0,0 10
+4 RiderRequest Chris 5,0 0,5 8

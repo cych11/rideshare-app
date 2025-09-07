@@ -1,0 +1,3 @@
+# Test where the driver is too far, making the runner run out of patience and cancel
+0 DriverRequest Alice 0,0 1
+1 RiderRequest Apple 5,5 1,5 9

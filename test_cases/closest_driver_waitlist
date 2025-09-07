@@ -1,0 +1,5 @@
+# Tests 2 drivers that are the same distance away from a rider, but one of them has been waiting longer, see who picks them up
+0 DriverRequest Brian 3,3 1
+0 DriverRequest David 4,1 1
+1 RiderRequest Alice 2,3 0,0 10
+7 RiderRequest Chris 2,1 4,4 10

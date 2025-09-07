@@ -1,0 +1,5 @@
+# Tests to see if cancel happens when pickup is scheduled for the same time
+# but with the rider being on a waitlist
+0 RiderRequest Apple 3,3 1,5 6
+0 DriverRequest Alice 0,0 1
+

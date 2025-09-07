@@ -1,0 +1,4 @@
+# Tests 2 drivers initialized to see which one is assigned based on who is closest
+0 DriverRequest Brian 3,3 1
+0 DriverRequest David 4,1 1
+1 RiderRequest Kiwi 2,1 3,2 3

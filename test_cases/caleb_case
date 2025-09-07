@@ -1,0 +1,43 @@
+# Sample Event List
+
+# Output should be:
+# {'rider_wait_time': 0.5, 'driver_total_distance': 9.666666666666666, 'driver_ride_distance': 4.3}
+# Average Wait Time: 5/10, Average Total Distance: 58/6, Average Ride Distance: 43/10
+
+# The parser will skip empty lines, lines with whitespace only,
+# or those that start with '#'.
+
+# The format for DriverRequest events is:
+# <timestamp> DriverRequest <driver id> <location> <speed>
+# <location> is <row>,<col>
+
+0 DriverRequest Alice 2,2 1
+0 DriverRequest Brian 3,3 1
+0 DriverRequest Clara 1,4 1
+0 DriverRequest David 4,1 2
+0 DriverRequest Emma 0,0 2
+0 DriverRequest Frank 5,5 2
+
+# The format for RiderRequest events is:
+# <timestamp> RiderRequest <rider id> <origin> <destination> <patience>
+# <origin>, <destination> are <row>,<col>
+
+1 RiderRequest Apple 0,1 4,1 5
+3 RiderRequest Banana 2,2 3,4 10
+5 RiderRequest Cherry 1,3 4,5 8
+7 RiderRequest Date 3,1 5,2 7
+10 RiderRequest Elderberry 4,4 1,5 6
+12 RiderRequest Fig 5,3 0,3 9
+15 RiderRequest Grape 1,0 5,4 4
+18 RiderRequest Honeydew 0,2 2,4 10
+20 RiderRequest Kiwi 2,1 3,2 5
+25 RiderRequest Lemon 3,3 0,5 8
+
+
+# The format for DriverRequest events is:
+# <timestamp> DriverRequest <driver id> <location> <speed>
+# <location> is <row>,<col>
+
+# The format for RiderRequest events is:
+# <timestamp> RiderRequest <rider id> <origin> <destination> <patience>
+# <origin>, <destination> are <row>,<col>
